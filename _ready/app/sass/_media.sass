@@ -1,0 +1,154 @@
+@import "vars"
+
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px)
+	.header-menu
+		display: none
+		float: right
+		min-width: 295px
+		top: 40px
+		position: relative
+		position: absolute
+		right: 15px
+		z-index: 2
+		background-color: $dark
+		ul
+			li
+				display: block !important
+				line-height: 0
+				text-align: center
+				border: none !important
+				transition: all .5s ease
+				a
+					display: block
+					line-height: 48px
+					background-color: transparent
+					font-size: 14px
+					text-transform: uppercase
+					transition: all .5s ease
+					&.isactive
+						background-color: $accent
+					&:hover
+						background-color: $accent
+						color: #fff !important
+	.toggle-mnu
+		top: 18px !important
+
+	.imac-img
+		img
+			width: 60% !important
+
+	.s-team
+		.slider-team
+			.team-item
+				.team-img
+					img
+						left: 29%
+
+	.s-work
+		.our-work
+			.portfolio
+				.portfolio-item
+					.on-hover
+						.h4
+							font-size: 18px
+							line-height: 1.2
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px)
+	.toggle-mnu
+		top: -13px !important
+	.header-menu
+		top: 12px !important
+
+	.s-team
+		.slider-team
+			.team-item
+				.team-img
+					img
+						left: 30%
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px)
+	.s-work
+		.our-work
+			.menu
+				.h5
+					text-align: center
+					margin-bottom: 15px
+				ul
+					text-align: center
+
+	.s-work
+		.our-work
+			.portfolio
+				.portfolio-item
+					display: block
+					margin: 0 auto
+					width: 60%
+					margin-bottom: 20px
+
+	.my-footer
+		.soc
+			margin-top: 20px
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px)
+	.about-us
+		.h2
+			font-size: 24px
+
+	.s-work
+		.our-work
+			.menu
+				.h5
+					text-align: center
+					margin-bottom: 15px
+				ul
+					text-align: center
+					li
+						display: block
+
+	.s-work
+		.our-work
+			.portfolio
+				.portfolio-item
+					width: 100%
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px)
+	/**/
+
+
+/*==========  Mobile First  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px)
+	/**/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+	/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+	/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+	/**/
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+	.header-menu
+		display: block !important
+
